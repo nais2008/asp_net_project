@@ -52,3 +52,72 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+# ОСНОВНОЕ ДЛЯ .NET / ASP.NET Core
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ПАПКИ С КЕШЕМ
+.vs/
+.vscode/
+.idea/
+_ReSharper*/
+*.DotSettings.user
+
+# ЛОГИ И ТЕМП ФАЙЛЫ
+*.log
+*.tlog
+*.cache
+*.tmp
+
+# БАЗЫ ДАННЫХ / ЛОКАЛЬНЫЕ НАСТРОЙКИ
+*.db
+*.sqlite
+*.mdf
+*.ldf
+
+# ПЕРЕМЕННЫЕ ОКРУЖЕНИЯ
+.env
+
+# ПАРОЛИ/СЕКРЕТЫ, ЕСЛИ ИСПОЛЬЗУЕШЬ SECRET MANAGER
+secrets.json
+
+# ПАПКИ ПАКЕТОВ (если вдруг используются)
+packages/
+.nuget/
+*.nupkg
+
+# ПУБЛИКАЦИЯ
+*.Publish.xml
+*.pubxml
+*.publishproj
+
+# ТЕСТЫ / COVERAGE
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+*.testsettings
+*.vsmdi
+
+# Rider кеши
+.idea/
+
+# Docker
+**/docker-compose.override.yml
+**/docker-compose.*.yml
+
+# Mac OS / Linux
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
